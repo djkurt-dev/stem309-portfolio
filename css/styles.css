@@ -1,0 +1,262 @@
+html {
+    scroll-behavior: smooth;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+body {
+    background: #ffffff;
+    font-family: 'Nunito', sans-serif;
+  }
+
+.navbar{
+ min-height: 70px;
+ background-color: #F8F9FA !important;
+}
+
+.navbar>.container>.navbar-brand{
+    font-size: 30px;
+    /* font-family: 'Merienda', cursive;  */
+    font-family: 'Pacifico', cursive;
+    color: #0648aa;
+}
+.navbar>.container>.navbar-brand:hover{
+  text-shadow: 2px 2px #c4c4bf;
+}
+.navbar-nav .nav-item{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+.navbar-nav .nav-item .nav-link:hover, .navbar-nav .dropdown .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #0648aa;
+    border-radius: 5px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  background-color: #0648aa;
+}
+
+.main-cont{
+  padding-top: 70px;
+  background-image: url(../images/watercolor_with_blue_detailed_background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.section-title{
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #0648aa;
+  text-transform: uppercase;
+}
+.section-title:hover{
+  color: #0648aa;
+  text-shadow: 2px 2px #FFD966;
+  cursor: pointer;
+}
+.container-gray{
+  background-color: #F8F9FA;
+  opacity: 100%;
+}
+.container-white {
+  background-color: white;
+}
+
+
+/* THIS IS FOR REFLECTION AND CLEARANCE-CERTIFICATES PAGE */
+
+.reflection-container{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.reflection-title{
+  font-size: 45px;
+  padding: 50px 35px 0px 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.reflection-option:hover{
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.reflection-option{
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: #0648aa;
+  transition: 0.3s ease-in-out;
+}
+.option-active{
+  font-weight: bold !important;
+}
+.ref-content{
+  font-size: 20px;
+  padding: 30px 35px 50px 35px;
+}
+#options-box{
+  background-color: #f1f1ec;
+  border-radius: 5px;
+  padding: 25px 15px;
+}
+.list-option{
+  margin-bottom: 10px;
+}
+#articlebody{
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+}
+.by-name{
+  padding: 0px 35px;
+}
+
+.clearance-step{
+  font-weight: bold;
+}
+
+/* THIS SECTION IS FOR HOME AND ABOUT SECTIONS */
+hr{
+  width: 100px; 
+  margin: -15px auto 30px;
+  border: 1px solid #FFD966;
+}
+
+hr:hover{
+  border: 1px solid #0648aa;
+  text-shadow: 2px 2px #FFD966;
+
+}
+
+.emphasis{
+  text-decoration: underline;
+  font-weight: 900;
+  color: #0648aa;
+}
+
+.info-title{
+  font-weight: bold;
+  color: #0648aa;
+}
+
+.personal-details{
+  margin-top: 25px;
+}
+
+.description{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+
+.about-head {
+  margin-top: 70px;
+}
+
+.section-title-resume{
+  padding-top: 35px;
+}
+
+
+.home-hr{
+  border: 0.5px solid #424240;
+  width: 100%;
+}
+
+.my-name{
+  font-family: 'Nunito', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.specialization{
+  font-size: 30px;
+  color: #3c3c3d;
+}
+
+.home-pic{
+  padding-top: 60px;
+}
+
+.web{
+  color: #0648aa;
+}
+
+.mission-vision{
+  font-size: 25px;
+  font-weight: lighter;
+  width: 75%;
+  margin: 0px auto;
+  padding-bottom: 30px;
+}
+.credo{
+  font-size: 25px;
+  font-weight: lighter;
+  width: 450px;
+  margin: 0px auto;
+  padding-bottom: 30px;
+}
+u{
+  text-decoration: underline;
+}
+
+
+/* For typewriter effect */
+
+.typed-text{
+  font-size: 35px;
+  font-weight: bold;
+  color: #0648aa;
+  overflow: hidden;
+}
+
+.cursor{
+  display: inline-block;
+  width: 3px;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  animation: blink 1s infinite;
+}
+
+.cursor.typing{
+  animation: none;
+}
+
+@keyframes blink{
+  0% { background-color: rgb(100, 98, 98); }
+  49% { background-color: rgb(100, 98, 98); }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100% { background-color: rgb(100, 98, 98); }
+}
+
+
+/* Documentations */
+.documentation-caption{
+  font-size: 20px;
+  font-weight: 400;
+}
+.documentation-caption:hover{
+  text-decoration: none;
+}
+#docu-hr{
+  width: 100%; 
+  margin-top: 0px;
+  margin-bottom: 8px;
+  border: 1px solid #333230;
+}
+
+.photo-title{
+  font-size: 25px;
+  font-weight: 500;
+  color: #0648aa;
+}
