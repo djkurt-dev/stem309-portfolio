@@ -2,7 +2,7 @@
         var reflection = [
             {
                 title:"Work Immersion", 
-                photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 100%;' src='/images/immersion.png' alt='stem png'>",
+                photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 100%;' src='../images/immersion.png' alt='stem png'>",
                 author: "By:<u> Kurt Timajo </u>",
                 body: "One of the salient features of the Department of Education’s (DepEd) K-12 Program is the Senior High School Work Immersion Program for Grade 12 students. According to the DepEd’s curriculum guide on Work Immersion, it is a program where students will have to undergo work immersion in an industry that relates to their postsecondary goal.<br><br> In this program, students are given opportunities to gain relevant and practical industrial skills under the guidance of industry experts and workers. For instance, a student is planning to take engineering program in college, he/she will be deployed to a company that is focused on engineering. With this, the student will be able to have necessary backgrounds before going to college. Economically, according to an article of The Asia Foundation, work immersion for students is one way to address the youth unemployment which hampers economic development. <br><br>\
                         Work immersion might be one of the most memorable parts of our senior high school journey as students because it is only in senior high school where we experience the workplace before going to college. However, due to the pandemic which has taken away our opportunity to experience the real world of work, new challenges come our way to have work immersion in this setup. As we all know, going out of the house during this time is very risky, we cannot be allowed to go out just to report to work. And in this home-based learning setup, though have the opportunity to learn the essentials in the workplace, we still missed the opportunity to apply what we have learned especially those about human relations. For those who aspire to become engineer in the future, including me, it is a bit sad since I really want to experience being an engineer in a workplace. <br><br>\
@@ -10,7 +10,7 @@
             },
             {
                 title:"Value of Work", 
-                photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 100%;' src='/images/work.jpg' alt='work-value.jpg'>",
+                photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 100%;' src='../images/work.jpg' alt='work-value.jpg'>",
                 author: "By:<u> Kurt Timajo </u>",
                 body: "Work does not only give us money for a living, but it develops our sense of responsibility, character, relationships with others, and commitment to our work.<br><br>\
                         In the world of work, we always feel the need to finish tasks daily and this is where we get more feeling of responsibility. Also, through work, we can be able to reflect on our strengths and weaknesses. This gives us the chance to assess our character and values that we believe in life, thus, improving our strengths and altering our weaknesses with good behaviors.<br><br> \
@@ -20,7 +20,7 @@
             },
             {
                 title:"Ethical Practices in the Workplace", 
-                photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 100%;' src='/images/ibm.png' alt='work-value.jpg'>",
+                photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 100%;' src='../images/ibm.png' alt='ethical.jpg'>",
                 author: "By:<u> Kurt Timajo </u>",
                 body: "In today’s modern world where technology is rapidly advancing, ethical practices are still very essential and are among the things that should not be neglected by many companies. With the emerging technologies such as Artificial Intelligence (AI), ethics is at risk of being disregarded but it was not impossible for International Business Machines (IBM) Corporation to still operate ethically. <br><br>\
                 Last year, on the month of February 2020, this company commonly known as IBM was awarded for the second time in a row as one of the “World’s Most Ethical Companies”. IBM has received this recognition for driving positive change, doing the right thing, and operating with integrity daily.<br><br>\

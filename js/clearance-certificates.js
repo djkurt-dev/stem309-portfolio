@@ -1,7 +1,7 @@
 var certificates = [
     {
         certificate: "Police Clearance",
-        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='/images/clearance/police clearance.jpg' alt='police clearance'>",
+        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='../images/clearance/police clearance.jpg' alt='police clearance'>",
         source: "https://ifranchise.ph/wp-content/uploads/2015/04/Police-Clearance-300x2051.jpg",
         steps: "<span class='clearance-step'>Step 1</span>  Before going to the Police Station, bring a ballpen, a cedula, a barangay clearance, a valid ID, and money for payment. <br><br>\
             <span class='clearance-step'>Step 2</span> Present the documents to the person in charge (photocopy of Barangay Clearance and Cedula). The in-charge will hand you a form to complete. <br><br>\
@@ -13,7 +13,7 @@ var certificates = [
     },
     {
         certificate: "NBI Clearance",
-        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='/images/clearance/nbi clearance.jpg' alt='police clearance'>",
+        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='../images/clearance/nbi clearance.jpg' alt='police clearance'>",
         source: "https://i1.wp.com/governmentph.com/wp-content/uploads/2018/05/Sample-NBI-Clearance.jpg",
         steps: "<span class='clearance-step'>Step 1</span> Prepare the necessary requirements, and you will be assigned a number when you arrive.<br><br>\
             <span class='clearance-step'>Step 2</span> When your number is called, join the rest of the line. You will queue up at the Cashier and pay the appropriate amount based on your application's purpose.<br><br>\
@@ -23,7 +23,7 @@ var certificates = [
     },
     {
         certificate: "Barangay Clearance",
-        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='/images/clearance/brgy clearance.jpg' alt='police clearance'>",
+        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='../images/clearance/brgy clearance.jpg' alt='police clearance'>",
         source: "https://imgv2-1-f.scribdassets.com/img/document/192696412/original/19a6c5efd2/1614316129?v=1",
         steps: "<span class='clearance-step'>Step 1</span> Simply go to your Barangay Hall and inquire about obtaining a Barangay Clearance.<br><br>\
             <span class='clearance-step'>Step 2</span> Proceed to the clearing desk to have your clearances processed.<br><br>\
@@ -34,7 +34,7 @@ var certificates = [
     },
     {
         certificate: "Medical Certificate",
-        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='/images/clearance/medical certificate.jpg' alt='police clearance'>",
+        photo: "<img class='mx-auto d-block mt-4' style='border: 1px solid grey; width: 60%;' src='../images/clearance/medical certificate.jpg' alt='police clearance'>",
         source: "https://imgv2-1-f.scribdassets.com/img/document/358610942/original/713b011539/1614235811?v=1",
         steps: "<span class='clearance-step'>Step 1</span> To get a certificate, go to the hospital, medical center, or private doctor's office where you want to get one.<br><br>\
             <span class='clearance-step'>Step 2</span> Let the receptionist know you'd like a certificate. You'll be given instructions on what to do next.<br><br>\
