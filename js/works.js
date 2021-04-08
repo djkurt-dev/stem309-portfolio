@@ -57,21 +57,21 @@
 
     function workImmersion() {
         display.innerHTML = 
-        "<h1 class='text-center reflection-title' ><b>" + reflection[0].title + "</b></h1>" + reflection[0].photo + "<p class='text-center by-name  mt-3' style='font-size: 20px;'>"+ reflection[0].author + "</p>" + "<p class='text-justify ref-content'>"+ reflection[0].body + "</p>";               
+        "<h1 class='text-center reflection-title' ><b>" + reflection[0].title + "</b></h1>" + reflection[0].photo + "<p class='text-center by-name  mt-3' style='font-size: 20px;'>"+ reflection[0].author + "</p>" + "<p class='ref-content'>"+ reflection[0].body + "</p>";               
         document.getElementsByClassName("reflection-option")[0].classList.add("option-active");
         document.getElementsByClassName("reflection-option")[1].classList.remove("option-active");
         document.getElementsByClassName("reflection-option")[2].classList.remove("option-active");
     }
     
     function valueOfWork() {
-        display.innerHTML = "<h1 class='text-center reflection-title'><b>" + reflection[1].title + "</b></h1>" + reflection[1].photo + "<p class='text-center by-name mt-3' style='font-size: 20px;'>"+ reflection[1].author + "</p>" + "<p class='text-justify ref-content'>"+ reflection[1].body + "</p>";
+        display.innerHTML = "<h1 class='text-center reflection-title'><b>" + reflection[1].title + "</b></h1>" + reflection[1].photo + "<p class='text-center by-name mt-3' style='font-size: 20px;'>"+ reflection[1].author + "</p>" + "<p class='ref-content'>"+ reflection[1].body + "</p>";
         document.getElementsByClassName("reflection-option")[1].classList.add("option-active");
         document.getElementsByClassName("reflection-option")[0].classList.remove("option-active");
         document.getElementsByClassName("reflection-option")[2].classList.remove("option-active");
     }
 
     function ethicalPractices() {
-        display.innerHTML = "<h1 class='text-center reflection-title'><b>" + reflection[2].title + "</b></h1>" + reflection[2].photo + "<p class='text-center by-name mt-3' style='font-size: 20px;'>"+ reflection[2].author + "</p>" + "<p class='text-justify ref-content'>"+ reflection[2].body + "</p>";         
+        display.innerHTML = "<h1 class='text-center reflection-title'><b>" + reflection[2].title + "</b></h1>" + reflection[2].photo + "<p class='text-center by-name mt-3' style='font-size: 20px;'>"+ reflection[2].author + "</p>" + "<p class='ref-content'>"+ reflection[2].body + "</p>";         
         document.getElementsByClassName("reflection-option")[2].classList.add("option-active");
         document.getElementsByClassName("reflection-option")[0].classList.remove("option-active");
         document.getElementsByClassName("reflection-option")[1].classList.remove("option-active");

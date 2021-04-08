@@ -81,7 +81,7 @@ function policeClearance() {
     "</b></h1>" + certificates[0].photo + 
     "<p class='text-center' style='font-size: 10px;'>Source: <u>"+certificates[0].source+"</u></p>"+
     "<h3 class='text-center  mt-5' style='font-size: 30px; font-weight: 600; margin-bottom: -10px;'>Steps in Getting "+ certificates[0].certificate + "</h3>" + 
-    "<p class='text-justify pl-5 ref-content '>"+ certificates[0].steps + "</p>"; 
+    "<p class='pl-5 ref-content '>"+ certificates[0].steps + "</p>"; 
     document.getElementsByClassName("reflection-option")[0].classList.add("option-active");
     document.getElementsByClassName("reflection-option")[1].classList.remove("option-active");
     document.getElementsByClassName("reflection-option")[2].classList.remove("option-active");
@@ -95,7 +95,7 @@ function nbiClearance() {
     "</b></h1>" + certificates[1].photo + 
     "<p class='text-center' style='font-size: 10px;'>Source: <u>"+certificates[1].source+"</u></p>"+
     "<h3 class='text-center  mt-5' style='font-size: 30px; font-weight: 600; margin-bottom: -10px;'>Steps in Getting "+ certificates[1].certificate + "</h3>" + 
-    "<p class='text-justify pl-5 ref-content'>"+ certificates[1].steps + "</p>"; 
+    "<p class='pl-5 ref-content'>"+ certificates[1].steps + "</p>"; 
     document.getElementsByClassName("reflection-option")[1].classList.add("option-active");
     document.getElementsByClassName("reflection-option")[0].classList.remove("option-active");
     document.getElementsByClassName("reflection-option")[2].classList.remove("option-active");
@@ -107,7 +107,7 @@ function brgyClearance() {
     "</b></h1>" + certificates[2].photo + 
     "<p class='text-center' style='font-size: 10px;'>Source: <u>"+certificates[2].source+"</u></p>"+
     "<h3 class='text-center  mt-5' style='font-size: 30px; font-weight: 600; margin-bottom: -10px;'>Steps in Getting "+ certificates[2].certificate + "</h3>" + 
-    "<p class='text-justify pl-5 ref-content'>"+ certificates[2].steps + "</p>"; 
+    "<p class='pl-5 ref-content'>"+ certificates[2].steps + "</p>"; 
     document.getElementsByClassName("reflection-option")[2].classList.add("option-active");
     document.getElementsByClassName("reflection-option")[0].classList.remove("option-active");
     document.getElementsByClassName("reflection-option")[1].classList.remove("option-active");
@@ -119,7 +119,7 @@ function medicalCertificate() {
     "</b></h1>" + certificates[3].photo + 
     "<p class='text-center' style='font-size: 10px;'>Source: <u>"+certificates[3].source+"</u></p>"+
     "<h3 class='text-center  mt-5' style='font-size: 30px; font-weight: 600; margin-bottom: -10px;'>Steps in Getting "+ certificates[3].certificate + "</h3>" + 
-    "<p class='text-justify pl-5 ref-content'>"+ certificates[3].steps + "</p>"; 
+    "<p class='pl-5 ref-content'>"+ certificates[3].steps + "</p>"; 
     document.getElementsByClassName("reflection-option")[3].classList.add("option-active");
     document.getElementsByClassName("reflection-option")[0].classList.remove("option-active");
     document.getElementsByClassName("reflection-option")[1].classList.remove("option-active");
